@@ -134,9 +134,6 @@ public class Demo {
 //        System.out.println("Lowest prime number in List : " + stats.getMin());
 //        System.out.println("Sum of all prime numbers : " + stats.getSum());
 //        System.out.println("Average of all prime numbers : " + stats.getAverage());
-
-        Encoder e = Base64.getEncoder();
-        System.out.print(e.encode("351193400".getBytes()));
     }
 
     public static void filter(List<String> names, Predicate<String> condition) {
